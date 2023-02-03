@@ -1,0 +1,27 @@
+git.txt
+push!
+
+git : 분산 버전관리 시스템
+
+*git - 파일을 폴더 단위로 관리
+	폴더를 저장소(repository)로 부름
+
+repo -> 저장된 파일(untracked:git이 해당 파일은 관리X) -> 관리명령 -> 파일(tracked) - staged/unstaged 상태
+
+*untracked : git이 관리하지 않는 파일
+*tracked : git이 관리하는 파일
+ - staged : git 변경사항을 저장한 뒤 상태
+ - unstaged : 쫓아가고 있으나 변경사항이 저장되지 않음
+		git 관리하기는 하지만, 최종 저장은 불가능
+
+
+
+----------------------------------------------------------------------------
+
+명령어
+> git init (저장소 설정) -> git이 해당 저장소를 관리하게 됨
+> git status (상태 확인)
+
+> git add [untracked 상태의 파일명]	-> add 후 수정하면 unstaged
+
+> git commit -m "첫번째 커밋"
